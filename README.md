@@ -9,7 +9,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [-](https://www.frontendmentor.io/solutions/results-summary-component-using-css-flexbox-y2_QSrxIDY)
+- Solution URL: [Solution link](https://www.frontendmentor.io/solutions/results-summary-component-using-css-flexbox-y2_QSrxIDY)
 - Live Site URL: https://magical-donut-707cbf.netlify.app/
 
 ### Built with

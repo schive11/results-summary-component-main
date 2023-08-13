@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+:root{
+   
+--light-red: hsla(0, 100%, 67%, 0.1);
+--orangey-yellow: hsla(39, 100%, 56%, 0.1);
+--green-teal: hsla(166, 100%, 37%, 0.1);
+--cobalt-blue: hsla(234, 85%, 45%, 0.1);
+
+--light-slate-blue: hsl(252, 100%, 67%);
+--light-royal-blue: hsl(241, 81%, 54%);
+
+--violet-blue: hsla(256, 72%, 46%, 1);
+--persian-blue: hsla(241, 72%, 46%, 0);
+
+--white: hsl(0, 0%, 100%);
+--pale-blue: hsl(221, 100%, 96%);
+--light-lavender: hsl(241, 100%, 89%);
+--dark-gray-blue: hsl(224, 30%, 27%);
+
+ 
+}
+
+*{
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    box-sizing: border-box;
+    gap: 0;
+    /* margin: 0; */
+    outline: 0;
+}
+
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 475px;
+    width: 625px;
+    margin: 200px auto;
+}
+
+.left-container{
+    width: 300px;
+    background: linear-gradient(var(--light-slate-blue),var(--light-royal-blue));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: none;
+    border-radius: 24px;
+    height: 100%;
+}
+
+.left-container h4{
+    text-align: center;
+    color: var(--light-lavender);
+    margin: 24px auto 12px;
+}
+
+.circle-result{
+    width: 160px;
+    height: 160px;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(var(--violet-blue),var(--persian-blue));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-result h1{
+    font-size: 3rem;
+    color: white;
+    margin: 0 auto;
+}
+
+.circle-result p{
+    color: var(--light-lavender);
+    font-size: 14px;
+    opacity: 0.6;
+    margin: 0 auto;
+}
+
+.left-result-summary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.left-result-summary h3{
+    margin: 8px auto 18px;
+    font-weight: 500;
+    font-size: 28px;
+    color: var(--white);
+}
+
+.left-result-summary p{
+    color: var(--light-lavender);
+    font-size: 14px;
+    margin: 0px 50px 50px 50px;
+    opacity: 0.8;
+}
+
+.right-container{
+    width: 325px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    box-shadow: 10px 10px 20px var(--pale-blue);
+    border: none;
+    border-radius: 0px 24px 24px 0px;
+}
+
+.right-container h3{
+    font-size: 24px;
+    margin: 36px 0px 12px;
+    text-align: left;
+    width: calc(100% - 60px);
+    color: var(--dark-gray-blue);
+}
+
+.card{
+    width: 100%;
+    margin: 0 auto;
+    height: 3rem;
+    border: none;
+    border-radius: 8px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Reaction{
+    background-color: var(--light-red);   
+}
+
+.Memory{
+    background-color: var(--orangey-yellow);
+}
+
+.Verbal{
+    background-color: var(--green-teal);
+}
+
+.Visual{
+    background-color: var(--cobalt-blue);
+}
+
+.card-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-weight: 400;
+}
+
+.card-left img{
+    margin-left: 12px;
+}
+
+#Reaction{
+    color: hsla(0, 100%, 67%);
+}
+
+#Memory{ 
+    color: hsl(39, 100%, 56%);
+}
+
+#Verbal{
+color: hsl(166, 100%, 37%);
+}
+
+#Visual{
+    color: hsl(234, 85%, 45%);
+}
+
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    gap: 8px;
+}
+
+.number p{
+    color: var(--dark-gray-blue);
+    opacity: 0.5;
+    font-weight: 700;
+}
+
+button{
+    width: calc(100% - 60px);
+    height: 52px;
+    border: none;
+    border-radius: 24px;
+    color: var(--white);
+    background-color: var(--dark-gray-blue);
+    margin: 24px;
+    font-size: 16px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: var(--light-royal-blue);
+    opacity: 0.8;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    width: calc(100% - 60px);
+    gap: 12px;
+}

@@ -14,8 +14,7 @@ fetch("./data.json").then((response) => {
         </div>`
 
    
-        document.querySelector('.cards').insertAdjacentHTML("afterbegin",cardhtml)
-        console.log(data[index].category);
+        document.querySelector('.cards').insertAdjacentHTML("afterbegin",cardhtml);
     }
 
     var sum = 0;
